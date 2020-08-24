@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The base configuration for WordPress
  *
@@ -21,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'thieuthi_wp199' );
+define( 'DB_NAME', 'didaudodi' );
 
 /** MySQL database username */
-define( 'DB_USER', 'thieuthi_wp199' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '[5.SK5qrp6' );
+define( 'DB_PASSWORD', 'root' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -47,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'ebrjas1rizck0nqomuzwee6jkzu3ielhltw5cblentby2aansfv8suvqyu2d6pnr' );
-define( 'SECURE_AUTH_KEY',  '583qj4sudsmmpyww9hjbqvmedd3px84uzg9jrya7f8ipiwcokumgl5rz4khxodl6' );
-define( 'LOGGED_IN_KEY',    '6ykqfmo6aykgnawxnzezgyz9s7naupcpolnmmoo8yynygkox4xow8bhiyz0agdfo' );
-define( 'NONCE_KEY',        'm9av3h4qmo05jewjgn01n47qoca9fnejs9isk8xrwf2krikrl9rul2ybqjzefqrk' );
-define( 'AUTH_SALT',        '3x9bmvtmq2onsyphhqovoofm4hr2ugikbowake0hjrojvebndaqntbucupxdriuc' );
-define( 'SECURE_AUTH_SALT', 'az1dgwkmhufjqau1bkemcj6whb56mwykntjqvftbgrvt7zvc7qjedxxowdlszaod' );
-define( 'LOGGED_IN_SALT',   'zsv9vsvpayfk82gb3io8vatwsnne1a3hccnb2ohryunimkjztmuyrg9ngc7flhs1' );
-define( 'NONCE_SALT',       'ag6yoy693lwvgk60abhxgvmwcsovpuct9jobzdxokzjvvp5odsp093ydzcum1xxs' );
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
@@ -79,7 +78,7 @@ $table_prefix = 'wpok_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-
+define("FS_METHOD", "direct");
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

@@ -540,3 +540,5 @@
 [24/Th8/20:05:49:38 +0000] No security rules update available.
 [24/Th8/20:05:49:43 +0000] No security rules update available.
 [24/Th8/20:06:19:53 +0000] No security rules update available.
+[24/Aug/20:08:09:11 +0000] Security rules updated to version 2020-08-41.1.
+[24/Th8/20:08:37:55 +0000] Security rules updated to version 2020-08-41.1.
