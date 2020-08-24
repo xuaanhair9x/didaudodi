@@ -2,3 +2,4 @@ wp-config.php
 access
 error.log
 wp-content/nfwlog/
+wp-content/nfwlog
