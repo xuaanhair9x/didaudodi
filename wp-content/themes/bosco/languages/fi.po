@@ -1,0 +1,231 @@
+# Translation of Bosco in Finnish
+# This file is distributed under the same license as the Bosco package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-25 09:25:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Bosco\n"
+
+msgid "A personal blog theme with a responsive layout and beautiful typography."
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Hakutulokset kohteelle: %s"
+
+#: no-results.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
+
+#: no-results.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Pahoittelut mutta mitään ei löytynyt hakuehdoillasi. Kokeile uudelleen joillakin toisilla hakusanoilla."
+
+#: no-results.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">Aloita tästä</a>."
+
+#: inc/template-tags.php:137
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Julkaistu %1$s</span><span class=\"byline\"> by %2$s</span>"
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt"
+
+#: inc/template-tags.php:58
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:57
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:54
+msgid "Post navigation"
+msgstr "Artikkelien selaus"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Uudemmat artikkelit <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat artikkelit"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Artikkelien selaus"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "Siirry sisältöön"
+
+#: header.php:31
+msgid "Menu"
+msgstr "Valikko"
+
+#: functions.php:165
+msgid "Page %s"
+msgstr "Sivu %s"
+
+#: functions.php:112
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:88
+msgid "Third Footer Widget Area"
+msgstr "Kolmas vimpainalue"
+
+#: functions.php:80
+msgid "Second Footer Widget Area"
+msgstr "Toinen vimpainalue"
+
+#: functions.php:72
+msgid "First Footer Widget Area"
+msgstr "Ensimmäinen vimpainalue"
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "Ensisijainen valikko"
+
+#: footer.php:14
+msgid "Theme: %1$s by %2$s."
+msgstr "Teema: %1$s tekijä %2$s."
+
+#: footer.php:12
+msgid "Proudly powered by %s"
+msgstr "Voimanlähteenä %s"
+
+#: footer.php:12
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Merkityksellinen henkilökohtainen julkaisualusta"
+
+#: content-video.php:52 inc/template-tags.php:175
+msgid "Tagged %1$s"
+msgstr "Avainsanat %1$s"
+
+#: content-video.php:42 inc/template-tags.php:169
+msgid "Posted in %1$s"
+msgstr "Kategoriassa %1$s"
+
+#: content-video.php:38 content-video.php:48 inc/template-tags.php:158
+#: inc/template-tags.php:161
+msgid ", "
+msgstr ", "
+
+#: content-aside.php:36 content-link.php:29 content-quote.php:36
+#: content-video.php:31 content.php:45
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: content-aside.php:36 content-link.php:29 content-quote.php:36
+#: content-video.php:31 content.php:45
+msgid "1 Comment"
+msgstr "1 kommentti"
+
+#: content-aside.php:36 content-link.php:29 content-quote.php:36
+#: content-video.php:31 content.php:45
+msgid "Leave a comment"
+msgstr "Jätä kommentti"
+
+#: content-aside.php:33 content-link.php:26 content-quote.php:33
+#: content-video.php:28 content.php:41 page.php:27
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: content-aside.php:25 content-link.php:18 content-quote.php:25
+#: content-video.php:20 content.php:31 page.php:22
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: content-aside.php:22 content-link.php:15 content-quote.php:22
+#: content-video.php:17 content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lue loppuun <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: comments.php:37 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: comments.php:36 comments.php:51
+msgid "&larr; Older Comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: comments.php:35 comments.php:50
+msgid "Comment navigation"
+msgstr "Kommenttien selaus"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Yksi kommentti artikkeliin &rdquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommenttia artikkeliin &rdquo;%2$s&rdquo;"
+
+#: archive.php:50
+msgid "Archives"
+msgstr "Arkistot"
+
+#: archive.php:47
+msgid "Links"
+msgstr "Linkit"
+
+#: archive.php:44
+msgid "Quotes"
+msgstr "Lainaukset"
+
+#: archive.php:41
+msgid "Videos"
+msgstr "Videot"
+
+#: archive.php:38
+msgid "Images"
+msgstr "Kuvat"
+
+#: archive.php:32
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:35
+msgid "Asides"
+msgstr "Sivuhuomautukset"
+
+#: archive.php:29
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:26
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:23
+msgid "Author: %s"
+msgstr "Kirjoittaja: %s"
+
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Yritä etsiä kuukausittaisista arkistoista. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Käytetyimmät kategoriat"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""

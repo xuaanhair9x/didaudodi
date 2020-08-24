@@ -1,0 +1,249 @@
+<button class="lscf-open-customizer"></button>
+<button class="lscf-close-customizer"></button>
+
+<div class="lscf-sidebar-live-customizer-wrapper">
+
+	<div class="lscf-sidebar-headline">
+
+		<img src="{{pluginSettings.pluginPath + 'assets/images/lscf-logo.jpg'}}"/>
+
+		<strong class="lscf-live-customizer-title">Frontend Editor</strong>
+
+	</div>
+
+	<a class="lscf-shortcode-editor-link" target="_blank" href="{{pluginSettings.editShortcodeLink}}">Edit shortcode</a>
+
+	<div class="lscf-sidebar-options" >
+
+		<div class="lscf-sidebar-option" data-field-type="checkbox" data-type="order-fields">
+
+
+			<div class="lscf-option-icon">
+
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/drag-drop-icon.png'}}"/>
+
+			</div>
+
+
+			<div class="lscf-option-name lscf-premium-option">
+				<label>Order filter fields</label>
+				<i>(Drag&Drop)</i>
+			</div>
+
+
+			<div class="lscf-option-field" >
+				
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/button-inactive.png'}}">
+
+			</div>
+
+		</div>
+
+		<div class="lscf-sidebar-option" data-field-type="colorpicker" data-type="main-color">
+
+
+			<div class="lscf-option-icon">
+
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/brush.png'}}"/>
+
+			</div>
+
+
+			<div class="lscf-option-name lscf-middle">
+				<label>Change Color</label>
+			</div>
+
+
+			<div class="lscf-option-field">
+				
+				<input type="text" class="lscf-colorpicker" value="{{pluginSettings.filterSettings['main-color']}}">
+
+			</div>
+
+		</div>
+
+		<div class="lscf-sidebar-option" data-field-type="dropdown" data-type="sidebar-position" >
+
+
+			<div class="lscf-option-icon">
+
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/sidebar.png'}}"/>
+
+			</div>
+
+
+			<div class="lscf-option-name lscf-middle">
+				<label>Sidebar Position</label>
+			</div>
+
+
+			<div class="lscf-option-field">
+				
+				<select class="lscf-custom-select-dropwdown" data-class="lscf-custom-select">
+					<option value="left" ng-selected="pluginSettings.filterSettings.theme.sidebar.position == 'left' " >Left</option>
+					<option value="right" ng-selected="pluginSettings.filterSettings.theme.sidebar.position == 'right' ">Right</option>
+					<option value="0" ng-selected="pluginSettings.filterSettings.theme.sidebar.position == 0 ">None</option>
+					<option value="0" data-status="lscf-inactive">Top</option>
+				</select>
+
+			</div>
+
+		</div>
+
+		<div class="lscf-sidebar-option" data-field-type="number" data-type="posts-per-page" >
+
+
+			<div class="lscf-option-icon">
+
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/posts.png'}}"/>
+
+			</div>
+
+
+			<div class="lscf-option-name lscf-middle">
+				<label>Posts per page</label>
+			</div>
+
+
+			<div class="lscf-option-field">
+				
+				<input type="number" value="{{actionSettings.postsPerPage}}">
+
+			</div>
+
+		</div>
+
+		<div class="lscf-sidebar-option">
+
+
+			<div class="lscf-option-icon">
+
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/theme.png'}}"/>
+
+			</div>
+
+
+			<div class="lscf-option-name lscf-middle">
+				<label>Theme</label>
+			</div>
+
+		</div>
+
+		<div class="lscf-sidebar-option" data-field-type="radiobutton" data-type="theme-style">
+		
+			<ul class="lscf-theme-list" >
+
+				<li>
+					<input type="radio" ng-checked="pluginSettings.filterSettings.theme.display == 'default'" name="lscf-theme" value="default" id="lscf-theme-default"/>
+					<label for="lscf-theme-default" class="lscf-live-customizer-radiobutton-label"  data-value="default">
+						<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/themes-icons/default.jpg'}}"/>
+					</label>
+
+				</li>
+
+				<li>
+					<input type="radio">
+					<label>
+						<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/themes-icons/accordion.jpg'}}"/>
+					</label>
+
+				</li>
+
+				<li>
+					<input type="radio">
+					<label>
+						<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/themes-icons/portrait.jpg'}}"/>
+					</label>
+
+				</li>
+
+				<li>
+					
+					<input type="radio" />
+					<label >
+						<img ng-src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/themes-icons/basic-grid-icon.jpg'}}"/>
+					</label>
+
+				</li>
+
+				<li>
+					
+					<input type="radio" />
+					<label >
+						<img ng-src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/themes-icons/masonry-grid-icon.jpg'}}"/>
+					</label>
+
+				</li>
+
+				<li>
+					
+					<input type="radio" />
+
+					<label >
+						<img ng-src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/themes-icons/woocommerce-icon.jpg'}}"/>
+					</label>
+
+				</li>
+
+			</ul>
+			
+
+		</div>
+
+		<div class="lscf-sidebar-option lscf-optional-option lscf-optional-grid" data-field-type="dropdown" data-type="columns-number">
+
+
+			<div class="lscf-option-icon">
+
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/columns.png'}}"/>
+
+			</div>
+
+
+			<div class="lscf-option-name">
+				<label>Number of columns</label>
+			</div>
+
+			<div class="lscf-option-field">
+			
+				<select class="lscf-custom-select-dropwdown" data-class="lscf-custom-select">
+					<option ng-selected="pluginSettings.filterSettings.theme.columns == 4">4</option>
+					<option ng-selected="pluginSettings.filterSettings.theme.columns == 3">3</option>
+					<option ng-selected="pluginSettings.filterSettings.theme.columns == 2">2</option>
+				</select>
+
+
+			</div>
+
+		</div>
+
+		<div class="lscf-sidebar-option lscf-optional-option lscf-optional-viewchanger" data-field-type="dropdown" data-type="view-changer">
+
+
+			<div class="lscf-option-icon">
+
+				<img src="{{pluginSettings.pluginPath + 'assets/images/sidebar-live-customizer/viewchanger.png'}}"/>
+
+			</div>
+
+
+			<div class="lscf-option-name lscf-middle">
+				<label>View Changer</label>
+			</div>
+
+			<div class="lscf-option-field">
+
+				<select class="lscf-custom-select-dropwdown" data-class="lscf-custom-select">
+					<option  ng-selected="pluginSettings.filterSettings.theme.viewchanger.list == 1 && pluginSettings.filterSettings.theme.viewchanger.grid == 1 " value="full">Full</option>
+					<option  ng-selected="pluginSettings.filterSettings.theme.viewchanger.grid == 1 && pluginSettings.filterSettings.theme.viewchanger.list != 1 " value="grid">Grid only</option>
+					<option  ng-selected="pluginSettings.filterSettings.theme.viewchanger.list == 1 && pluginSettings.filterSettings.theme.viewchanger.grid != 1 " value="list">List only</option>
+				</select>
+
+			</div>
+
+		</div>
+		
+
+	</div>
+	
+</div>

@@ -1,0 +1,244 @@
+# Translation of Bosco in Albanian
+# This file is distributed under the same license as the Bosco package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-25 09:25:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Bosco\n"
+
+#: inc/template-tags.php:256
+msgid "Continue reading %s"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A personal blog theme with a responsive layout and beautiful typography."
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: no-results.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se nuk qemë në gjendje të gjenim ç&#8217;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#: no-results.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Na ndjeni, por nuk u përputh gjë me kriterin tuaj të kërkimit. Ju lutemi, riprovoni me ndonjë fjalëkyç tjetër."
+
+#: no-results.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: inc/template-tags.php:137
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr "Nuk u Gjet Gjë"
+
+#: inc/template-tags.php:58
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:57
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:54
+msgid "Post navigation"
+msgstr "Lëvizje te postimet"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Postime më të reja <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Postime më të vjetra"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Lëvizje te postimet"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Hidhu te lënda"
+
+#: header.php:32
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:171
+msgid "Page %s"
+msgstr "Faqe %s"
+
+#: functions.php:118
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:94
+msgid "Third Footer Widget Area"
+msgstr "Fushë e Tretë Widget-esh për Fundfaqe"
+
+#: functions.php:86
+msgid "Second Footer Widget Area"
+msgstr "Fushë Dytësore Widget-esh për Fundfaqe"
+
+#: functions.php:78
+msgid "First Footer Widget Area"
+msgstr "Fushë Parësore Widget-esh për Fundfaqe"
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "Menuja Parësore"
+
+#: footer.php:14
+msgid "Theme: %1$s by %2$s."
+msgstr "Temë: %1$s nga %2$s."
+
+#: footer.php:12
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
+#: footer.php:12
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Platformë Semantike Publikimesh Personale"
+
+#: content-video.php:57 inc/template-tags.php:175
+msgid "Tagged %1$s"
+msgstr "Etiketuar si %1$s"
+
+#: content-video.php:47 inc/template-tags.php:169
+msgid "Posted in %1$s"
+msgstr "Postuar te %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-video.php:43 content-video.php:53 inc/template-tags.php:158
+#: inc/template-tags.php:161
+msgid ", "
+msgstr ", "
+
+#: content-aside.php:41 content-link.php:34 content-quote.php:41
+#: content-video.php:36 content.php:50
+msgid "% Comments"
+msgstr "% Koment"
+
+#: content-aside.php:41 content-link.php:34 content-quote.php:41
+#: content-video.php:36 content.php:50
+msgid "1 Comment"
+msgstr "1 Koment"
+
+#: content-aside.php:41 content-link.php:34 content-quote.php:41
+#: content-video.php:36 content.php:50
+msgid "Leave a comment"
+msgstr "Lini një koment"
+
+#: content-aside.php:38 content-link.php:31 content-quote.php:38
+#: content-video.php:33 content.php:46 eventbrite/eventbrite-index.php:48
+#: eventbrite/eventbrite-single.php:37 page.php:27
+msgid "Edit"
+msgstr "Përpunoni"
+
+#: content-aside.php:30 content-link.php:23 content-quote.php:30
+#: content-video.php:25 content.php:36 page.php:22
+msgid "Pages:"
+msgstr "Faqe:"
+
+#. translators: %s: Name of current post
+#: content-aside.php:25 content-link.php:18 content-quote.php:25
+#: content-video.php:20 content.php:31
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Komentet janë mbyllur."
+
+#: comments.php:37 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "Komentet Më të Reja &rarr;"
+
+#: comments.php:36 comments.php:51
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentet Më të Vjetra"
+
+#: comments.php:35 comments.php:50
+msgid "Comment navigation"
+msgstr "Lëvizje te komentet"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
+
+#: archive.php:50
+msgid "Archives"
+msgstr "Arkiva"
+
+#: archive.php:47
+msgid "Links"
+msgstr "Lidhje"
+
+#: archive.php:44
+msgid "Quotes"
+msgstr "Citime"
+
+#: archive.php:41
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:38
+msgid "Images"
+msgstr "Figura"
+
+#: archive.php:32
+msgid "Year: %s"
+msgstr "Vit: %s"
+
+#: archive.php:35
+msgid "Asides"
+msgstr "Anësore"
+
+#: archive.php:29
+msgid "Month: %s"
+msgstr "Muaj: %s"
+
+#: archive.php:26
+msgid "Day: %s"
+msgstr "Ditë: %s"
+
+#: archive.php:23
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provoni të shihni arkivat mujorë. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Kategoritë Më të Përdorura"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hmm! Ajo faqe nuk gjendet dot."

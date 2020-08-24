@@ -1,0 +1,230 @@
+# Translation of Bosco in Chinese (Taiwan)
+# This file is distributed under the same license as the Bosco package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-25 09:25:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Bosco\n"
+
+msgid "A personal blog theme with a responsive layout and beautiful typography."
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "關於 <strong>%s</strong> 的搜尋結果"
+
+#: no-results.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "我們似乎找不到你正在尋找的項目。請嘗試搜尋功能。"
+
+#: no-results.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，沒有項目符合你的搜尋字詞。請再嘗試其他不同的關鍵字！"
+
+#: no-results.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "準備好發表你的第一篇文章了嗎？<a href=\"%1$s\">自這裡開始</a>。"
+
+#: inc/template-tags.php:137
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr "什麼都沒找到"
+
+#: inc/template-tags.php:58
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:57
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:54
+msgid "Post navigation"
+msgstr "文章導航列"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "較新的文章 <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 較舊的文章"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "文章導覽"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "直接觀看文章"
+
+#: header.php:31
+msgid "Menu"
+msgstr "選單"
+
+#: functions.php:165
+msgid "Page %s"
+msgstr "第 %s 頁"
+
+#: functions.php:112
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:88
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:80
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:72
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "主要選單"
+
+#: footer.php:14
+msgid "Theme: %1$s by %2$s."
+msgstr "佈景主題：%1$s，發表者：%2$s。"
+
+#: footer.php:12
+msgid "Proudly powered by %s"
+msgstr "自豪的採用 %s </a> 與 <a href=\"http://wordpress.org/extend/themes/twentytwelve\">貳零壹貳主題</a>"
+
+#: footer.php:12
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: content-video.php:52 inc/template-tags.php:175
+msgid "Tagged %1$s"
+msgstr "已加上的標籤 %1$s"
+
+#: content-video.php:42 inc/template-tags.php:169
+msgid "Posted in %1$s"
+msgstr "發表在 %1$s 中"
+
+#: content-video.php:38 content-video.php:48 inc/template-tags.php:158
+#: inc/template-tags.php:161
+msgid ", "
+msgstr "、"
+
+#: content-aside.php:36 content-link.php:29 content-quote.php:36
+#: content-video.php:31 content.php:45
+msgid "% Comments"
+msgstr "% 則迴響"
+
+#: content-aside.php:36 content-link.php:29 content-quote.php:36
+#: content-video.php:31 content.php:45
+msgid "1 Comment"
+msgstr "1 則迴響"
+
+#: content-aside.php:36 content-link.php:29 content-quote.php:36
+#: content-video.php:31 content.php:45
+msgid "Leave a comment"
+msgstr "發表迴響"
+
+#: content-aside.php:33 content-link.php:26 content-quote.php:33
+#: content-video.php:28 content.php:41 page.php:27
+msgid "Edit"
+msgstr "編輯"
+
+#: content-aside.php:25 content-link.php:18 content-quote.php:25
+#: content-video.php:20 content.php:31 page.php:22
+msgid "Pages:"
+msgstr "頁次："
+
+#: content-aside.php:22 content-link.php:15 content-quote.php:22
+#: content-video.php:17 content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "繼續閱讀 <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "迴響已被關閉。"
+
+#: comments.php:37 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "較新評論 &rarr;"
+
+#: comments.php:36 comments.php:51
+msgid "&larr; Older Comments"
+msgstr "&larr; 較早評論"
+
+#: comments.php:35 comments.php:50
+msgid "Comment navigation"
+msgstr "評論導航列"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "對「%2$s」的想法"
+
+#: archive.php:50
+msgid "Archives"
+msgstr "彙整"
+
+#: archive.php:47
+msgid "Links"
+msgstr "鏈結"
+
+#: archive.php:44
+msgid "Quotes"
+msgstr "引文"
+
+#: archive.php:41
+msgid "Videos"
+msgstr "影片"
+
+#: archive.php:38
+msgid "Images"
+msgstr "圖片"
+
+#: archive.php:32
+msgid "Year: %s"
+msgstr "年: %s"
+
+#: archive.php:35
+msgid "Asides"
+msgstr "旁白"
+
+#: archive.php:29
+msgid "Month: %s"
+msgstr "月: %s"
+
+#: archive.php:26
+msgid "Day: %s"
+msgstr "日: %s"
+
+#: archive.php:23
+msgid "Author: %s"
+msgstr "作者：%s"
+
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "嘗試搜尋每月封存檔。%1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "最常使用分類"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "這個位置似乎沒有任何項目。要嘗試以下其中一個連結或進行搜尋嗎？"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "糟糕！找不到該頁面。"

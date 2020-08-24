@@ -1,0 +1,20 @@
+{
+  "name": "live-search-and-custom-fields-lite",
+  "version": "1.0.0",
+  "description": "Live Search and Custom Fields Lite. WordPress advanced filter and WooCommerce products filter",
+  "private":true,
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PIXOLLETE",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-ng-annotate": "~2.0.2"
+  }
+}

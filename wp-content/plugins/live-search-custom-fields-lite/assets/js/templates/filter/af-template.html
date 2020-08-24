@@ -1,0 +1,60 @@
+<script type="text/html" id="px-filter-additional-fields-template">
+	
+
+	{{#items}}
+
+		{{#is_search}}
+			
+			<div class="px_additional-fields-row px_search">
+		
+				<div class="left-side">
+					<label>Type:</label><strong>Search</strong><br/>
+					<span class="px_remove px_remove-additional-field">Remove</span>
+				</div>
+
+
+				{{#is_woocommerce}}
+				
+					<div class="right-side">
+						<label>Field Name:</label><input type="text" name="px_search_field_name_{{index}}" value="{{name}}">
+						<div class="clear"></div>
+						
+						<div class="px-woocommerce-search-fields">
+							<input 
+								{{#set_as_active}}{{search_by}}___default{{/set_as_active}}
+								class="px_radiobox-input" 
+								name="px_search_by_{{index}}" 
+								checked="checked" 
+								type="radio" 
+								id="px_search_by_default_{{index}}" 
+								value="default"/>
+
+							<label class="px_radiobox theme-field" for="px_search_by_default_{{index}}"></label><span>Default</span>
+							
+							<input
+								{{#set_as_active}}{{search_by}}___sku{{/set_as_active}} 
+								class="px_radiobox-input" 
+								name="px_search_by_{{index}}" 
+								type="radio" 
+								id="px_search_by_sku_{{index}}" 
+								value="sku" />
+							<label class="px_radiobox theme-field" for="px_search_by_sku_{{index}}"></label><span>Product SKU</span>
+						</div>
+
+					</div>
+
+				{{/is_woocommerce}}
+			
+				{{^is_woocommerce}}
+					<div class="right-side">
+						<label>Field Name:</label><input type="text" name="px_search_field_name" value="{{name}}">
+					</div>
+				{{/is_woocommerce}}
+
+			</div>
+
+		{{/is_search}}
+
+	{{/items}}
+
+</script>

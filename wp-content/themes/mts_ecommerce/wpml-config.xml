@@ -1,0 +1,54 @@
+<wpml-config>
+  <admin-texts>
+    <key name="ecommerce">
+      <key name="mts_copyrights"/>
+      <key name="mts_payment">
+        <key name="*">
+          <key name="title"/>
+          <key name="description"/>
+        </key>
+      </key>
+      <key name="mts_accepted_payment_method_images">
+        <key name="*">
+          <key name="mts_payment_method_title"/>
+        </key>
+      </key>
+      <key name="mts_footer_social_icons">
+        <key name="*">
+          <key name="mts_footer_social_icon_title"/>
+        </key>
+      </key>
+      <key name="mts_show_secondary_nav"/>
+      <key name="mts_header_bottom_ad_nav_1_title"/>
+      <key name="mts_header_bottom_ad_nav_1_desc"/>
+      <key name="mts_header_bottom_ad_nav_2_title"/>
+      <key name="mts_header_bottom_ad_nav_2_desc"/>
+      <key name="mts_header_bottom_ad_nav_3_title"/>
+      <key name="mts_header_bottom_ad_nav_3_desc"/>
+      <key name="mts_custom_slider">
+        <key name="*"">
+          <key name="mts_custom_slider_title"/>
+          <key name="mts_custom_slider_subtitle"/>
+          <key name="mts_custom_slider_heading"/>
+          <key name="mts_custom_slider_subheading"/>
+          <key name="mts_custom_slider_button_text"/>
+        </key>
+      </key>
+      <key name="welcome_heading"/>
+      <key name="welcome_subheading"/>
+      <key name="banner_light_text"/>
+      <key name="banner_dark_text"/>
+      <key name="banner_button_text"/>
+      <key name="browse_heading"/>
+      <key name="product_grid_heading"/>
+      <key name="lookbook_heading"/>
+      <key name="offers_heading"/>
+      <key name="brands_heading"/>
+      <key name="latest_posts_heading"/>
+      <key name="mts_contact_title"/>
+      <key name="mts_contact_desc"/>
+      <key name="mts_faqs_title"/>
+      <key name="mts_faqs_desc"/>
+    </key>
+  </admin-texts>
+</wpml-config>

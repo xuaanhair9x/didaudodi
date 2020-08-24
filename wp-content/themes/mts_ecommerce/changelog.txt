@@ -1,0 +1,1191 @@
+v1.7.0 (Feb 7, 2020)
+-----------------------------
+- Fixed 'data-vocabulary' schema warning in the breadcrumbs
+- Replaced StumbleUpon share button with Mix
+- Removed Google Plus share button
+- Fixed WooCommerce outdated templates notices
+- Added 5 new Google fonts in the typography options
+
+Files Updated:
+- css/responsive.css
+- functions.php
+- functions/theme-actions.php
+- functions/widget-social.php
+- js/customscript.js
+- header.php
+- lang/default.pot
+- style.css
+- theme-options.php
+- woocommerce/global/breadcrumb.php
+- woocommerce/single-product/related.php
+
+
+v1.6.14 (Nov 16, 2019)
+-----------------------------
+- Updated outdated WooCommerce template files
+- Updated language file
+
+Files Updated:
+- functions.php
+- lang/default.pot
+- style.css
+- woocommerce/cart/cart.php
+- woocommerce/checkout/form-login.php
+- woocommerce/single-product/tabs/tabs.php
+
+Files removed:
+- woocommerce/checkout/review-order.php
+
+
+v1.6.13 (Nov 14, 2019)
+-----------------------------
+- Fixed notices related to WP 5.3
+
+Files Updated:
+- functions.php
+- lang/default.pot
+- options/options.php
+- style.css
+
+
+v1.6.12 (Nov 12, 2019)
+-----------------------------
+- Fixed translation related issue in Contact Page
+
+Files Updated:
+- functions.php
+- functions/contact-form.php
+- js/contact.js
+- lang/default.pot
+- Added 10 new Google fonts in the typography options
+
+
+v1.6.11 (Aug 21, 2019)
+-----------------------------
+- Updated outdated WooCommerce template files
+- Fixed External product Button Text option not working
+- Fixed Fatal error in the backend
+
+Files Updated:
+- functions.php
+- woocommerce/cart/cart.php
+- style.css
+
+
+v1.6.10 (Jul 18, 2019)
+-----------------------------
+- Fixed 'Upload Theme' button not working
+- Added 10 new Google fonts in the typography options
+
+Files Updated:
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- functions.php
+- options/css/options.css
+- style.css
+
+
+v1.6.9 (May 08, 2019)
+-----------------------------
+- Fixed Compatibility with WooCommerce 3.6
+
+Files Updated:
+- functions.php
+- style.css
+- woocommerce/single-product/rating.php
+- woocommerce/myaccount/form-login.php
+- woocommerce/global/form-login.php
+- woocommerce/content-product.php
+- woocommerce/content-single-product.php
+- woocommerce/loop/orderby.php
+
+
+v1.6.8 (Mar 21, 2019)
+-----------------------------
+- Fixed Compatibility with WooCommerce 3.5.7
+
+Files Updated:
+- functions.php
+- style.css
+- woocommerce/single-product/add-to-cart/variable.php
+
+
+v1.6.7 (Jan 24, 2019)
+-----------------------------
+- Fixed review count issue in tabs
+- Fixed product page PHP notices
+- Fixed theme "Gallery Options" PHP warnings
+- Added 10 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- style.css
+- woocommerce/single-product/rating.php
+- woocommerce/single-product/meta.php
+- options/fields/multi_checkbox/field_multi_checkbox.php
+
+v1.6.6 (Jan 6, 2019)
+-----------------------------
+- Updated the Rank Math's auto installation process to give the control back to the users
+- Fixed MyThemeShop Connect install issue on Recommended Plugins page
+
+Files Updated:
+- functions.php
+- functions/rank-math-notice.php
+- functions/rm-seo.php
+- functions/theme-actions.php
+- images/rank-math-banner.jpg
+- lang/default.pot
+- style.css
+
+
+v1.6.5 (Dec 3, 2018)
+-----------------------------
+- Added missing words in the translation file
+
+Files Updated:
+- functions.php
+- lang/default.pot
+- style.css
+
+
+v1.6.4 (Nov 28, 2018)
+-----------------------------
+- Added More SEO Tweaks
+- Added better integration with Rank Math SEO plugin
+- Added integration for Rank Math SEO Breadcrumbs
+- Improved comments cookies opt-in checkbox
+
+Files Updated:
+- comments.php
+- functions.php
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- lang/default.pot
+- style.css
+
+
+v1.6.3 (Nov 6, 2018)
+-----------------------------
+- Fixed Image switch effect issue on shop page
+- Added 3 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- style.css
+- css/woocommerce2.css
+
+
+v1.6.2 (Nov 3, 2018)
+-----------------------------
+- Fixed move to top button issue
+
+Files Updated:
+- functions.php
+- style.css
+- js/customscript.js
+- woocommerce/single-product/tabs/tabs.php
+
+
+v1.6.1 (Nov 2, 2018)
+-----------------------------
+- Added More SEO Tweaks
+- Added integration for Rank Math SEO Breadcrumbs
+- Replaced inline transparent 1x1 image
+- Fixed Compatibility with WooCommerce 3.5.1
+
+Files Updated:
+- functions.php
+- functions/theme-actions.php
+- functions/widget-ad.php
+- header.php
+- home/section-banner.php
+- home/section-posts.php
+- home/section-product_cats.php
+- lang/default.pot
+- single.php
+- style.css
+- theme-options.php
+- woocommerce/cart/cart.php
+- woocommerce/cart/shipping-calculator.php
+- woocommerce/checkout/form-checkout.php
+- woocommerce/myaccount/form-login.php
+- woocommerce/single-product/add-to-cart/external.php
+- woocommerce/single-product/rating.php
+
+
+v1.6.0 (Oct 11, 2018)
+-----------------------------
+- Added life-changing SEO support with an included SEO plugin
+- Added compatibility for Gutenberg editor
+- Added 4 new Google fonts in the typography options
+- Security & licensing fixes
+- Fixed Twitter widget issue
+- Fixed WooCommerce Product Search button styling issue
+- Fixed WooCommerce Layered Nav Dropdown button styling issue
+- Fixed other minor CSS issues
+- Important fixes for better performance
+
+Files Updated:
+- functions.php
+- style.css
+- css/woocommerce2.css
+- functions/cacert.pem
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- functions/theme-actions.php
+- functions/twitteroauth.php
+- functions/widget-tweets.php
+- lang/mts_ecommerce.pot
+- options/options.php
+
+
+v1.5.11 (Aug 29, 2018)
+-----------------------------
+- Fixed woocommerce compatibility issues
+
+Files Updated:
+- style.css
+- functions.php
+- woocommerce/checkout/form-coupon.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/cart/cart.php
+
+v1.5.10 (July 09, 2018)
+-----------------------------
+- Fixed Wishlist Page By Title Issue
+
+Files Updated:
+- style.css
+- functions.php
+
+v1.5.9 (June 21, 2018)
+-----------------------------
+- Added home page products sort options
+
+Files Updated:
+- style.css
+- functions.php
+- theme-options.php
+- home/section-product_grid.php
+- home/section-offers.php
+
+
+v1.5.8 (June 14, 2018)
+-----------------------------
+- Fixed Home Page Products Grid Issue
+
+Files Updated:
+- style.css
+- functions.php
+- woocommerce/content-product-grid.php
+
+v1.5.7 (June 06, 2018)
+-----------------------------
+- Fixed Single product tab issue
+- Fixed Author widget issue
+
+Files Updated:
+- style.css
+- functions.php
+- functions/widget-authorposts.php
+- js/customscript.js
+
+
+v1.5.6 (May 31, 2018)
+-----------------------------
+- Fixed Option Panel buttons styling issues
+
+Files Updated:
+- style.css
+- functions.php
+- options/css/aristo.css
+- theme-options.php
+
+
+v1.5.5 (May 31, 2018)
+-----------------------------
+- Fixed deprecated calls issue
+- Fixed minor CSS issues
+
+Files Updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- functions/widget-productslider.php
+- lang/ecommerce.pot
+- theme-options.php
+
+
+v1.5.4 (May 30, 2018)
+-----------------------------
+- Added RTL support
+- Fixed woocommerce compatibility issues
+- Fixed minor CSS issues
+
+Files Updated:
+- style.css
+- functions.php
+- css/rtl.css
+- css/responsive.css
+- css/woocommerce2.css
+- js/owl.carousel.min.js
+- theme-options.php
+- woocommerce/archive-product.php
+- woocommerce/cart/cart.php
+- woocommerce/cart/shipping-calculator.php
+- woocommerce/checkout/form-coupon.php
+- woocommerce/checkout/form-login.php
+- woocommerce/content-product-grid.php
+- woocommerce/content-product.php
+- woocommerce/content-single-product.php
+- woocommerce/myaccount/form-login.php
+- woocommerce/single-product/add-to-cart/external.php
+- woocommerce/single-product/add-to-cart/grouped.php
+- woocommerce/single-product/add-to-cart/simple.php
+- woocommerce/single-product/add-to-cart/variable.php
+
+
+v1.5.3 (May 24, 2018)
+-----------------------------
+- Added GDPR compliant comment & contact form
+
+Files Updated:
+- style.css
+- functions.php
+- comments.php
+- functions/contact-form.php
+- js/contact.js
+
+
+v1.5.2 (April 02, 2018)
+-----------------------------
+- Fixed blog template pagination on home page
+- Fixed menu navigation icon select issue
+
+Files updated:
+- style.css
+- functions.php
+- page-blog.php
+- functions/nav-menu.php
+
+
+v1.5.1 (Mar 22, 2018)
+-----------------------------
+- Added Product Sidebar on My Account Page in WooCommerce
+- Fixed My Account Page’s styling issue.
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+
+
+v1.5 (Mar 22, 2018)
+-----------------------------
+- Added child theme file override support
+- Added description on archive pages for SEO
+- Added new Ad-Sense widget to insert ad codes (MTS Adcode)
+- Added WP Subscribe plugin in Essential Plugins list
+- Added My Account page styling in WooCommerce
+- Added Elementor compatibility
+- Added WPML Support
+- Improved schema markup code
+- Improved enqueue args code
+- Improved related posts code
+- Improved child theme creation code
+- Improved map menu in custom menu widget after import
+- Improved overall code for better performance
+- Improved sidebar code
+- Improved "Author Posts" widget code
+- Improved "Category Posts" widget code
+- Improved "Popular Posts" widget code
+- Improved "Recent Posts" widget code
+- Improved "Related Posts" widget code
+- Fixed plugin install issue on "Install Required Plugins" page
+- Fixed PHP & importer warnings
+- Fixed Illegal string offset issue in Social Profile Icons widget
+- Fixed color picker issue in the theme Options Panel
+- Fixed position of loading effect in infinite scroll pagination type
+- Fixed Group field input checkbox
+- Fixed OAuthException issue
+- Fixed bug in the Tags
+- Fixed isOnScreen when no element exists
+- Fixed issue in mts_wp_link_pages_args()
+- Changed Affiliate Commission
+- Hide breadcrumbs on homepage
+- Disabled lazy-load on AMP pages
+- Updated FontAwesome to 4.7 (41 New Icons!)
+- Updated Facebook Script
+
+Files Updated:
+- style.css
+- functions.php
+- archive.php
+- comments.php
+- footer.php
+- header.php
+- index.php
+- page-contact.php
+- sidebar.php
+- theme-options.php
+- searchform.php
+- wpml-config.xml
+- js/addons.js
+- js/ajax.js
+- js/customscript.js
+- js/owl.carousel.min.js
+- css/addons.css
+- css/font-awesome.min.css
+- css/responsive.css
+- css/rtl.css
+- css/woocommerce2.css
+- fonts/FontAwesome.otf
+- fonts/fontawesome-webfont.eot
+- fonts/fontawesome-webfont.svg
+- fonts/fontawesome-webfont.ttf
+- fonts/fontawesome-webfont.woff
+- fonts/fontawesome-webfont.woff2
+- functions/contact-form.php
+- functions/nav-menu.php
+- functions/plugin-activation.php
+- functions/twitteroauth.php
+- functions/theme-actions.php
+- functions/widget-adcode.php
+- functions/widget-authorposts.php
+- functions/widget-catposts.php
+- functions/widget-popular.php
+- functions/widget-postslider.php
+- functions/welcome-message.php
+- functions/widget-recentposts.php
+- functions/widget-relatedposts.php
+- functions/widget-social.php
+- functions/widget-tweets.php
+- functions/welcome-message.php
+- options/options.php
+- options/js/options.js
+- options/css/options.css
+- options/css/select2.css
+- options/child-theme/functions.php
+- options/child-theme/screenshot.jpg
+- options/child-theme/stylesheet.php
+- options/fields/..
+- options/demo-importer/init.php
+- options/demo-importer/importer/parsers.php
+- options/demo-importer/importer/radium-importer.php
+- options/demo-importer/importer/wordpress-importer.php
+
+
+v1.4.12 (Mar 15, 2018)
+-----------------------------
+- Fixed owl carousel issue
+
+Files updated:
+- style.css
+- functions.php
+- js\owl.carousel.min.js
+
+
+v1.4.11 (Feb 24, 2018)
+-----------------------------
+- Fixed Product's layout issue
+
+Files updated:
+- woocommerce/loop/add-to-cart.php
+
+
+v1.4.10 (Feb 19, 2018)
+-----------------------------
+- Fixed PHP warnings
+- Fixed: Header is distorted when floating navigation option is enabled
+
+Files updated:
+- functions.php
+- style.css
+
+
+v1.4.9 (Feb 14, 2018)
+-----------------------------
+- Compatibility with WooCommerce 3.3.1
+
+NOTE: This update requires the latest version of WooCommerce (3.3.1)
+
+Files updated:
+- functions.php
+- functions/theme-actions.php
+- home/section-product_cats.php
+- style.css
+- woocommerce/archive-product.php
+- woocommerce/cart/cart.php
+- woocommerce/cart/shipping-calculator.php
+- woocommerce/checkout/form-coupon.php
+- woocommerce/checkout/review-order.php
+- woocommerce/global/form-login.php
+- woocommerce/loop/add-to-cart.php
+- woocommerce/loop/orderby.php
+- woocommerce/myaccount/form-login.php
+- woocommerce/product-searchform.php
+- woocommerce/single-product/add-to-cart/grouped.php
+
+v1.4.8 (Feb 05, 2018)
+-----------------------------
+- Reversed last update as WooCommerce delayed version 3.3 https://woocommerce.wordpress.com/2018/01/30/woocommerce-3-3-has-been-released/
+
+
+v1.4.7 (Feb 01, 2018)
+-----------------------------
+- Compatibility with WooCommerce 3.3.0
+
+Files updated:
+- functions.php
+- functions/theme-actions.php
+- home/section-product_cats.php
+- style.css
+- woocommerce/archive-product.php
+- woocommerce/cart/cart.php
+- woocommerce/cart/shipping-calculator.php
+- woocommerce/checkout/form-coupon.php
+- woocommerce/checkout/review-order.php
+- woocommerce/global/form-login.php
+- woocommerce/loop/add-to-cart.php
+- woocommerce/loop/orderby.php
+- woocommerce/myaccount/form-login.php
+- woocommerce/product-searchform.php
+- woocommerce/single-product/add-to-cart/grouped.php
+
+
+v1.4.6 (Jan 02, 2018)
+-----------------------------
+- Fixed WooCommerce deprecated warnings
+- Variable products now appear in the "Limited Offers" section
+
+Files updated:
+- functions.php
+- functions/theme-actions.php
+- home/section-offers.php
+- lang/mts_ecommerce.pot
+- style.css
+- woocommerce/checkout/form-checkout.php
+- woocommerce/loop/offers-sale-flash.php
+
+v1.4.5 (Dec 07, 2017)
+-----------------------------
+- Added configuration file for WPML-compatibility
+
+Files updated:
+- functions.php
+- lang/mts_ecommerce.pot
+- style.css
+- wpml-config.xml
+
+v1.4.4 (Dec 05, 2017)
+-----------------------------
+- Fixed absurdly sized add-to-cart button when on variation product pages
+
+Files updated:
+- css/woocommerce2.css
+- functions.php
+- lang/mts_ecommerce.pot
+- style.css
+
+v1.4.3 (Oct 24, 2017)
+-----------------------------
+- Added color picker styles on nav menu screen
+
+Files updated:
+- functions/nav-menu.php
+- functions.php
+- style.css
+
+v1.4.2 (Oct 13, 2017)
+-----------------------------
+- Fixed WooCommerce v3.2.0 outdated template notices
+- Small PHP 7 demo importer fix
+
+Files updated:
+- functions.php
+- style.css
+- options/demo-importer/importer/wordpress-importer.php
+- woocommerce/cart/shipping-calculator.php
+- woocommerce/myaccount/form-login.php
+
+v1.4.1 (Aug 10, 2017)
+-----------------------------
+- Fix image issue with AMP when lazy loading is enabled
+
+Files updated:
+- functions.php
+- style.css
+
+v1.4.0 (Jul 7, 2017)
+-----------------------------
+- WC 3.1 template fixes
+- WC 3.0 featured products bug fix
+- Updated translation file
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/cart/cart.php
+- woocommerce/featured-products.php
+- woocommerce/single-product/rating.php
+- lang/mts_ecommerce.pot
+
+
+v1.3.9 (May 19, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.7 outdated template notice
+- Added option to reorder homepage tabs
+- Updated query for top rated homepage tab
+- Updated language file
+- Other small improvements
+
+Files updated:
+- functions.php
+- style.css
+- functions/plugin-activation.php
+- woocommerce/single-product/add-to-cart/grouped.php
+- woocommerce/content-product-grid.php
+- woocommerce/loop/product-hover-effect-imgswitch.php
+- woocommerce/popup-product-images.php
+- lang/mts_ecommerce.pot
+- theme-options.php
+- options/fields/layout2/field_layout2.css
+- home/section-product_tabs.php
+
+
+v1.3.8 (Apr 25, 2017)
+-----------------------------
+- Fixed WooCommerce outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/single-product/add-to-cart/variable.php
+
+
+v1.3.7 (Apr 18, 2017)
+-----------------------------
+- Fixed the issue with the product hover effect not taking effect.
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product.php
+
+v1.3.6 (Apr 14, 2017)
+-----------------------------
+- Fixed WooCommerce outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/single-product/add-to-cart/grouped.php
+
+
+v1.3.5 (Apr 14, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.3 outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/cart/cart.php
+- woocommerce/single-product/add-to-cart/grouped.php
+
+
+v1.3.4 (Apr 14, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.2 outdated template notice
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-single-product.php
+
+
+v1.3.3 (Apr 11, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.1 outdated templates notice
+- Fixed textdomain in tabs on single product
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product.php
+- woocommerce/loop/add-to-cart.php
+
+
+v1.3.2 (Apr 09, 2017)
+-----------------------------
+- Update page heading in archive pages
+
+Files updated:
+- archive.php
+- functions.php
+- style.css
+
+v1.3.1 (Apr 06, 2017)
+-----------------------------
+- Include Support tab in Theme Options Panel
+- Fixed Schema Issue
+- Fixed wrong background field constructor args in the Options Panel
+
+Files updated:
+- style.css
+- functions.php
+- theme-options.php
+- options/support.php
+- options/options.php
+- options/css/options.css
+- options/js/clipboard.min.js
+- options/js/help.js
+- options/fields/background/field_background.php
+- options/fields/group/field_group.php
+
+v1.3.0 (Apr 05, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.0 compatibility issues
+- Added option to Enable/Disable New WooCommerce v3.0.0 product gallery
+
+Files updated:
+- functions.php
+- style.css
+- theme-options.php
+- css/woocommerce2.css
+- functions/theme-actions.php
+- options/google-typography/google-typography.php
+- woocommerce/cart/cart.php
+- woocommerce/compare.php
+- woocommerce/content-product-grid.php
+- woocommerce/content-single-product.php
+- woocommerce/loop/add-to-cart.php
+- woocommerce/loop/offers-sale-flash.php
+- woocommerce/loop/product-hover-effect-apollo.php
+- woocommerce/loop/product-hover-effect-buttonscenter.php
+- woocommerce/loop/product-hover-effect-default.php
+- woocommerce/loop/product-hover-effect-featured.php
+- woocommerce/loop/product-hover-effect-imgswitch.php
+- woocommerce/loop/product-hover-effect-lexi.php
+- woocommerce/loop/product-hover-effect-slideinbottom.php
+- woocommerce/loop/product-hover-effect-zoom.php
+- woocommerce/popup-product-images.php
+- woocommerce/single-product/add-to-cart/grouped.php
+- woocommerce/single-product/add-to-cart/simple.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/single-product/meta.php
+- woocommerce/single-product/price.php
+- woocommerce/single-product/rating.php
+- woocommerce/single-product/related.php
+
+
+v1.2.10 (Mar 03, 2017)
+-----------------------------
+- Improved internalization
+
+Files updated:
+- functions.php
+- lang/mts_ecommerce.pot
+- style.css
+
+v1.2.9 (Feb 07, 2017)
+-----------------------------
+- Fixed issue with external products on archive pages
+
+Files updated:
+- functions.php
+- style.css
+
+v1.2.8 (Feb 05, 2017)
+-----------------------------
+- Fixed styling issue with external products
+
+Files updated:
+- css/woocommerce2.css
+- functions.php
+- style.css
+- woocommerce/single-product/add-to-cart/external.php
+
+v1.2.7 (Feb 05, 2017)
+-----------------------------
+- Fixed bug with author postbox
+
+Files updated:
+- functions.php
+- single.php
+- style.css
+
+v1.2.6 (Jan 25, 2017)
+-----------------------------
+- New! Author website link in author postbox
+
+Files updated:
+- functions.php
+- single.php
+- style.css
+
+
+v1.2.5 (Jan 18, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.2.4 (Jan 15, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.2.3 (Jan 14, 2017)
+-----------------------------
+- Fixed header 5 overflow scroll on smaller screens
+- Product grid images are now clickable and will bring you to the product's pag
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product-grid.php
+
+v1.2.2 (Dec 24, 2016)
+-----------------------------
+- One click demo importer improvements
+- Ignore sticky posts in recent posts widget
+- Bug fix regarding out of stock items in offers home section
+- Ajax search "Show all results" link fix
+- Added filters for query args in all home sections
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/importer/radium-importer.php
+- functions/widget-recentposts.php
+- woocommerce/loop/offers-sale-flush.php
+- home/section-posts.php
+- home/section-product_cats.php
+- home/section-product_grid.php
+- home/section-product_tabs.php
+
+
+v1.2.1 (Nov 2, 2016)
+-----------------------------
+- Fixed homepage Offers section layout issue if there is no sidebar
+- Added space after "More Articles By" in author box on single posts
+
+Files updated:
+- style.css
+- functions.php
+- single.php
+- css/woocommerce2.css
+
+
+v1.2.0 (Oct 22, 2016)
+-----------------------------
+- One click demo importer improvements
+- Install Plugins page improvements
+
+Files updated:
+- style.css
+- functions.php
+- theme-presets.php
+- options/
+- lang/
+- functions/plugin-activation.php
+
+
+v1.1.9 (Aug 23, 2016)
+-----------------------------
+- Fixed submenu bug
+
+Files updated:
+- style.css
+- functions.php
+
+
+v1.1.8 (Jul 20, 2016)
+-----------------------------
+- Fixed bug which was preventing right sidebar in the Shop page
+- Improved styling of pricing text in the single product page
+- Improved styling of On/Off buttons in the Theme Options Panel
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+- options/css/aristo.css
+
+
+v1.1.7 (Jul 16, 2016)
+-----------------------------
+- Added Google Maps API key field in Theme Options - now required by Google
+
+Files updated:
+- style.css
+- functions.php
+- page-contact.php
+- theme-options.php
+
+
+v1.1.6 (Jun 22, 2016)
+-----------------------------
+- Updated "MyThemeShop: AJAX attribute filter" widget
+
+Files updated:
+- style.css
+- functions.php
+- functions/widget-ajax-layered-nav.php
+- js/wc-ajax-attr-filters.php
+- css/woocommerce2.css
+
+
+v1.1.5 (Jun 17, 2016)
+-----------------------------
+- Fixed WC 2.6 issues
+- Fixed Wishlist page when "Optimize WooCommerce Scripts" option is enabled
+- Fixed Homepage tabs and offers sections issue when "hide out of stock items" is enabled
+- Improved Header Cart code
+
+Files updated:
+- style.css
+- functions.php
+- functions/theme-actions.php
+- css/woocommerce2.css
+- home/section-offers.php
+- home/section-product_tabs.php
+- woocommerce/myaccount/form-login.php
+- woocommerce/content-product.php
+- woocommerce/content-product_cat.php
+- woocommerce/content-product-featured-carousel.php
+- woocommerce/content-product-related-carousel.php
+- woocommerce/cart/cart.php
+
+
+v1.1.4 (Apr 27, 2016)
+-----------------------------
+- Small framework fixes and improvements
+- Checkout tabs are translatable now
+- Added 'mts_wishlist_page_id' filter
+- Fixed issue with variable product button in quick view popup
+
+Files updated:
+- style.css
+- functions.php
+- theme-options.php
+- css/addons.css
+- options/options.php
+- options/js/select2.min.js
+- options/js/options.js
+- options/css/options.css
+- options/fields/
+- options/google-typography/google-typography.php
+- options/google-typography/stylesheets/google-typography.css
+- options/demo-importer/init.php
+- options/demo-importer/importer/radium-importer.php
+- functions/widget-tweets.php
+- woocommerce/cart/cart.php
+- woocommerce/checkout/form-checkout.php
+
+
+v1.1.3 (Mar 17, 2016)
+-----------------------------
+- Updated code on Recommended plugins page
+
+Files updated:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v1.1.2 (Mar 8, 2016)
+-----------------------------
+- Recommended plugins page changes
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v1.1.1 (Feb 5, 2016)
+-----------------------------
+- Fixed WC 2.5 issues
+- Fixed add to cart issues when "Enable AJAX add to cart buttons on archives" WC option is unchecked
+- Fixed sidebar on Wishlist page
+- Fixed layered nav widget count issue
+- Improved Recommended plugins page
+- Added new image uploader
+- Fixed schema.org errors
+- Removed Translation Panel & added My WP Translate Plugin recommendation for the same
+- Fixed lazy load issues
+- Fixed issue when right sidebar won't show if 'Sidebar' string is translated
+- Updated Latest Tweets Widget
+- Added one click demo importer with 5 demos
+- Added performance tab in theme options panel
+
+Files updated:
+- style.css
+- functions.php
+- single.php
+- page-wishlist.php
+- theme-options.php
+- theme-presets.php
+- woocommerce/loop/add-to-cart.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/product-searchform.php
+- woocommerce/content-product.php
+- woocommerce/content-product_cat.php
+- css/woocommerce2.css
+- options/options.php
+- options/js/options.js
+- options/css/options.css
+- options/fields/upload/
+- options/demo-importer/
+- functions/plugin-activation.php
+- functions/widget-tweets.php
+- css/addons.css
+- js/addons.js
+- home/section-posts.php
+
+
+v1.1.0 (Dec 8, 2015)
+-----------------------------
+- Fixed structured data testing tool errors
+
+Files updated:
+- style.css
+- functions.php
+- single.php
+- functions/theme-actions.php
+
+
+v1.0.9 (Nov 13, 2015)
+-----------------------------
+- Fixed popup issues
+
+Files updated:
+- style.css
+- functions.php
+- js/jquery.magnific-popup.min.js
+
+
+v1.0.8 (Nov 10, 2015)
+-----------------------------
+- Fixed outdated template notice
+- Fixed PHP warnings on activation
+
+Files updated:
+- style.css
+- functions.php
+- woocommerce/single-product/price.php
+
+
+v1.0.7 (Oct 23, 2015)
+-----------------------------
+- Fixed PHP notice in recent tweets widget
+- Fixed active state checkout tabs issue
+- Fixed bug in variable product grid where one image was missing
+- Fixed issue where "No Title" pages were created on activation
+- Fixed blog layout on mobile
+- Few minor CSS changes
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+- css/responsive.css
+- woocommerce/content-product-grid.php
+- woocommerce/checkout/form-checkout.php
+- woocommerce/cart/cart.php
+- functions/widget-tweets.php
+
+
+v1.0.6 (Aug 31, 2015)
+-----------------------------
+- Modified checkout layout.
+
+Files updated:
+- style.css
+- css/woocommerce2.css
+- woocommerce/checkout/form-checkout.php
+
+
+v1.0.5 (Aug 30, 2015)
+-----------------------------
+- Fixed: Place Order button was hidden if users add multiple products.
+
+Files updated:
+- style.css
+- css/woocommerce2.css
+
+
+v1.0.4 (Aug 23, 2015)
+-----------------------------
+- Fixed double popup issue
+- Fixed minor styling of single product page thumbs
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+
+
+v1.0.3 (Aug 23, 2015)
+-----------------------------
+- Changed widget constructors to PHP 5 style
+- Fixed translation issue
+
+Files updated:
+- style.css
+- functions.php
+- functions/theme-actions.php
+- functions/widget-ad125.php
+- functions/widget-ad300.php
+- functions/widget-ad728.php
+- functions/widget-fblikebox.php
+- functions/widget-social.php
+- functions/widget-ajax-layered-nav.php
+- woocommerce/compare.php
+- woocommerce/single-product/add-to-cart/grouped.php
+- woocommerce/single-product/add-to-cart/simple.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/checkout/form-checkout.php
+- woocommerce/checkout/form-login.php
+- woocommerce/checkout/review-order.php
+- woocommerce/global/form-login.php
+- woocommerce/myaccount/form-login.php
+
+
+v1.0.2 (Aug 12, 2015)
+-----------------------------
+- Fixed WC v2.4.2 outdated templates notice
+- Fixed one PHP warning
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/content-product.php
+- woocommerce/content-product_cat.php
+- woocommerce/single-product/add-to-cart/variable.php
+- woocommerce/single-product/tabs/tabs.php
+
+
+v1.0.1 (Jul 28, 2015)
+---------------------------------------------------
+- Fixed small CSS bug
+
+Files updated:
+- style.css
+
+
+v1.0 (Jul 27, 2015)
+---------------------------------------------------
+- Theme Released

@@ -1,0 +1,244 @@
+# Translation of Bosco in Greek (Polytonic)
+# This file is distributed under the same license as the Bosco package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-25 09:25:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Bosco\n"
+
+#: inc/template-tags.php:256
+msgid "Continue reading %s"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A personal blog theme with a responsive layout and beautiful typography."
+msgstr ""
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Ἀναζήτηση ἀποτελεσμάτων γιά: %s"
+
+#: no-results.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Μᾶλλον δὲν μποροῦμε νὰ βροῦμε αὐτὸ ποὺ ψάχνετε. Ἴσως βοηθήσει μιὰ ἀναζήτηση."
+
+#: no-results.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπούμεθα, ἀλλὰ τίποτε δὲν ταιριάζει μὲ τὶς λέξεις ἀναζήτησης. Παρακαλοῦμε ξαναδοκιμάστε μὲ διαφορετικὲς λέξεις-κλειδιά."
+
+#: no-results.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ἕτοιμος/-η γιὰ τὸ πρῶτο σας ἄρθρο; <a href=\"%1$s\">Ξεκινῆστε ἀπὸ δῶ</a>."
+
+#: inc/template-tags.php:137
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Ἀναρτήθηκε στὶς %1$s</span><span class=\"byline\"> ἀπὸ τὸν/τὴν %2$s</span>"
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr "Οὑδὲν εὑρέθη!"
+
+#: inc/template-tags.php:58
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:57
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:54
+msgid "Post navigation"
+msgstr "Περιήγηση ἄρθρων"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Νεώτερα ἄρθρα <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Παλαιότερα ἄρθρα"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Περιήγηση ἄρθρων"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Πηγαίνετε στὸ περιεχόμενο τοῦ ἱστολογίου"
+
+#: header.php:32
+msgid "Menu"
+msgstr "Μενού"
+
+#: functions.php:171
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: functions.php:118
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:94
+msgid "Third Footer Widget Area"
+msgstr "Τρίτη περιοχὴ προσθηκῶν ὑποσελίδου"
+
+#: functions.php:86
+msgid "Second Footer Widget Area"
+msgstr "Δεύτερη περιοχὴ προσθηκῶν ὑποσελίδου"
+
+#: functions.php:78
+msgid "First Footer Widget Area"
+msgstr "Πρώτη περιοχὴ προσθηκῶν ὑποσελίδου"
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "Πρωτεῦον μενού"
+
+#: footer.php:14
+msgid "Theme: %1$s by %2$s."
+msgstr "Θέμα: %1$s ἀπὸ τὸν/τὴν %2$s."
+
+#: footer.php:12
+msgid "Proudly powered by %s"
+msgstr "Λειτουργεῖ μὲ τὴν βοήθεια τοῦ %s"
+
+#: footer.php:12
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Μιὰ πλατφόρμα σημασιολογικῶν προσωπικῶν ἐκδόσεων"
+
+#: content-video.php:57 inc/template-tags.php:175
+msgid "Tagged %1$s"
+msgstr "Σημειώθηκε ὡς %1$s"
+
+#: content-video.php:47 inc/template-tags.php:169
+msgid "Posted in %1$s"
+msgstr "Ἀναρτήθηκε στὸ '%1$s'"
+
+#. translators: used between list items, there is a space after the comma
+#: content-video.php:43 content-video.php:53 inc/template-tags.php:158
+#: inc/template-tags.php:161
+msgid ", "
+msgstr ","
+
+#: content-aside.php:41 content-link.php:34 content-quote.php:41
+#: content-video.php:36 content.php:50
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: content-aside.php:41 content-link.php:34 content-quote.php:41
+#: content-video.php:36 content.php:50
+msgid "1 Comment"
+msgstr "1 Σχόλιο"
+
+#: content-aside.php:41 content-link.php:34 content-quote.php:41
+#: content-video.php:36 content.php:50
+msgid "Leave a comment"
+msgstr "Σχολιάστε"
+
+#: content-aside.php:38 content-link.php:31 content-quote.php:38
+#: content-video.php:33 content.php:46 eventbrite/eventbrite-index.php:48
+#: eventbrite/eventbrite-single.php:37 page.php:27
+msgid "Edit"
+msgstr "Ἐπεξεργασία"
+
+#: content-aside.php:30 content-link.php:23 content-quote.php:30
+#: content-video.php:25 content.php:36 page.php:22
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#. translators: %s: Name of current post
+#: content-aside.php:25 content-link.php:18 content-quote.php:25
+#: content-video.php:20 content.php:31
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Ἡ ὑποβολὴ σχολίων ἔχει κλείσει."
+
+#: comments.php:37 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια &rarr;"
+
+#: comments.php:36 comments.php:51
+msgid "&larr; Older Comments"
+msgstr "&larr; Παλαιότερα σχόλια"
+
+#: comments.php:35 comments.php:50
+msgid "Comment navigation"
+msgstr "Πλοήγηση στὰ σχόλια"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Μιὰ σκέψη πάνω στὸ &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σκέψεις πάνω στὸ &ldquo;%2$s&rdquo;"
+
+#: archive.php:50
+msgid "Archives"
+msgstr "Ἀρχεῖα"
+
+#: archive.php:47
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: archive.php:44
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:41
+msgid "Videos"
+msgstr "Βίντεο"
+
+#: archive.php:38
+msgid "Images"
+msgstr "Εἰκόνες"
+
+#: archive.php:32
+msgid "Year: %s"
+msgstr "Ἔτος: %s"
+
+#: archive.php:35
+msgid "Asides"
+msgstr ""
+
+#: archive.php:29
+msgid "Month: %s"
+msgstr "Μῆνας: %s"
+
+#: archive.php:26
+msgid "Day: %s"
+msgstr "Ἡμέρα: %s"
+
+#: archive.php:23
+msgid "Author: %s"
+msgstr "Συγγραφέας: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Προσπαθῆστε νὰ ψάξετε στὰ μηνιαῖα ἀρχεῖα. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Οἱ πιὸ χρησιμοποιημένες κατηγορίες"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Στὴν τοποθεσία αὐτὴν δὲν βρέθηκε τίποτε. Ἂν θέλετε δοκιμάστε κάποιον ἀπὸ τοὺς κατωτέρω συνδέσμους ἢ μιὰν ἀναζήτηση."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ἡ σελίδα αὐτὴ δὲν βρέθηκε."
