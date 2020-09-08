@@ -712,7 +712,7 @@ if ( ! function_exists( 'mts_payment_guarantee' ) ) {
         if ( !empty( $mts_options['mts_payment_section'] ) && !empty( $mts_options['mts_payment'] ) ) {
         ?>
         <div class="payment-guarantee clearfix">
-            <div class="container">
+            <div class="container payment-content-container">
             <?php
             foreach( $mts_options['mts_payment'] as $payment ) {
                 $title       = $payment['title'];

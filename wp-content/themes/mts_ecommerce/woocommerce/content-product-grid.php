@@ -4,7 +4,6 @@
  *
  * Override this template by copying it to yourtheme/woocommerce/content-product-grid.php
  */
-
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 global $product, $mts_options;

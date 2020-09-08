@@ -91,6 +91,9 @@ MyThemeShop.com Themes.
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: center;
+    padding-top: 10px;
+    height: 59px;
+    border-top: 1px solid #d5d8db;
     /*max-height: 24px;*/
     overflow: hidden;
 }
@@ -206,6 +209,7 @@ MyThemeShop.com Themes.
     position: relative;
     padding: 0;
     border: 0;
+    width: 100%;
 }
 .woocommerce .widget_layered_nav ul small.count, .woocommerce-page .widget_layered_nav ul small.count {
     font-weight: normal;
@@ -539,6 +543,7 @@ MyThemeShop.com Themes.
 .limited-offers .products {
     float: left;
     width: 100%;
+    display: flex;
 }
 .limited-offers .featured-category-title, .related-products .featured-category-title, .featured-section .featured-category-title { float: left }
 .limited-offers .products li {
@@ -1074,14 +1079,15 @@ MyThemeShop.com Themes.
     float: left;
     margin-left: 0;
     font-size: 13px;
-    margin-left: -33px;
+    width: 100%;
+    /*margin-left: -33px;*/
 }
 .woocommerce .price_label span {
     background: #fff;
-    border: 1px solid #e0e5e7;
+    /*border: 1px solid #e0e5e7;*/
     padding: 0;
     border-radius: 0px;
-    width: 68px;
+    /*width: 68px;*/
     height: 36px;
     display: inline-block;
     text-align: center;

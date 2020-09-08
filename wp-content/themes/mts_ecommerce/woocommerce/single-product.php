@@ -50,7 +50,7 @@ get_header( 'shop' ); ?>
 			 */
 			//do_action( 'woocommerce_sidebar' );
 		?>
-	<?php get_sidebar(); ?>
+	<?php //get_sidebar(); ?>
 
 	<?php do_action( 'mts_before_product_footer' ); ?>
 	

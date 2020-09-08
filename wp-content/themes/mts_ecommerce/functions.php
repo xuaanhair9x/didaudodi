@@ -2967,3 +2967,4 @@ add_action( 'init', 'mts_theme_connector', 9 );
 add_action( 'mts_connect_deactivate', 'mts_theme_action' );
 add_action( 'after_switch_theme', 'mts_theme_activation', 10, 2 );
 add_action( 'admin_init', 'mts_trigger_theme_activation' );
+

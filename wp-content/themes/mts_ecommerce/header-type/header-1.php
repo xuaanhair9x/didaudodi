@@ -3,11 +3,11 @@
 <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader" class="header-1">
 
 	<div id="header">
-
+        <button class="menu-vertical-icon pull-left" tabindex="1">
+            Tất cả <br><span>Môn thể thao</span> <span class="spinner" title="css loader"></span></button>
 		<div class="container">
 
 			<div class="logo-wrap">
-
 				<?php if ($mts_options['mts_logo'] != '') { ?>
 
 					<?php if( is_front_page() || is_home() || is_404() ) { ?>
@@ -117,10 +117,9 @@
 			</div><!--.header-right-->
 
 		</div><!--.container-->
-
 	</div><!-- #header-->
-
-	<?php if ( $mts_options['mts_show_primary_nav'] == '1' ) { ?>
+    <?php wc_get_template('custom/header-custom.php'); ?>
+	<?php if ( $mts_options['mts_show_primary_nav'] == '1'  && false) { ?>
 
 		<?php if( $mts_options['mts_sticky_nav'] == '1' ) { ?>
 
