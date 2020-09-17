@@ -1,2 +1,3 @@
 <?php
-echo 'hello world';
+get_header();
+get_footer();
