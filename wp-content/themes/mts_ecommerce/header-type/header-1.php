@@ -5,7 +5,7 @@
 	<div id="header">
         <button class="menu-vertical-icon pull-left" tabindex="1">
             Tất cả <br><span>Môn thể thao</span> <span class="spinner" title="css loader"></span></button>
-		<div class="container">
+		<div class="container-aa">
 
 			<div class="logo-wrap">
 				<?php if ($mts_options['mts_logo'] != '') { ?>
@@ -101,7 +101,14 @@
 						</form>
 
 					</div>
-
+                    <div class="contact" style="
+                        float: left;
+                        margin-right: 25px;
+                        padding-top: 5px;
+                        padding-bottom: 7px;
+                        padding-right: 25px;
+                        border-right: 1px solid #d5d8db;">
+                        <a class="face-book" href="#"> FACEBOOK </a></div>
 
 
 					<?php mts_wishlist_link(); ?>

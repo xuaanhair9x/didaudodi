@@ -1008,9 +1008,10 @@ function mts_enqueue_css() {
             background: {$mts_options['mts_color_scheme']}!important;
             border-color: {$mts_options['mts_color_scheme']}!important;
         }
+        /**
         .mts-cart-icon, .mts-wishlist-icon {
             outline: 1px solid {$mts_options['mts_color_scheme']};
-        }
+        }*/
         /*second color*/
         a, a:hover, #secondary-navigation li a:hover, .slider-widget-container .custom-products-controls a:hover, .slider-widget-container .custom-products-controls a:hover i, .blog-page .readMore a, .post-info a:hover, .latestPost .title a:hover, .widget .wp_review_tab_widget_content .tab-content li a:hover, .featured-blog-post .title a:hover, .blog-post-info .readMore a, .related-posts .post-info .readMore a, .payment-content .payment-header .title a:hover, .sidebar a, .sidebar .widget li.active a, .sidebar .widget li.active ul li.current-cat a, .sidebar .widget li.active ul li.toggle-menu-current-item a, .widget .advanced-recent-posts li a:hover, .widget .popular-posts a li a:hover, .widget .category-posts li a:hover, .widget .related-posts-widget li a:hover, .widget .author-posts-widget li a:hover, .woocommerce ul.cart_list li a:hover, .woocommerce ul.product_list_widget li a:hover, .copyrights a, .widget_contact .address-information .text a:hover, #cancel-comment-reply-link, .fn a, .comment-meta a, .reply a, .woocommerce .woocommerce-ordering .e-comm .dropdown li a:hover, .woocommerce-page .woocommerce-ordering .e-comm .dropdown li a:hover,
         .woocommerce ul.products li.product .product-title a:hover, .woocommerce-page ul.products li.product .product-title a:hover,
@@ -2968,3 +2969,8 @@ add_action( 'mts_connect_deactivate', 'mts_theme_action' );
 add_action( 'after_switch_theme', 'mts_theme_activation', 10, 2 );
 add_action( 'admin_init', 'mts_trigger_theme_activation' );
 
+function all_ports() {
+    $output = array(635,646,665,674,596,538,770,850,231,336,750,894,361,382,295,875,221,738,720);
+    return $output;
+}
+add_filter( 'mts_home_product_cats_args', 'all_ports' );

@@ -1,8 +1,9 @@
 <div class="footer-end">
     <div class="container">
         <ul>
-            <li class="name_title"><p>THỂ THAO CHO TẤT CẢ - TẤT CẢ VÌ THỂ THAO</p></li>
-            <li class="v_r"><p>CHÚNG TÔI LÀ</p></li>
+            <li class="name_title"><p>THỂ CHẤT KHOẺ MẠNH - TINH THẦN LÀNH MẠNH</p></li>
+            <li class="v_r"><p>CHÚNG TÔI LÀ </p></li>
+            <li class="v_r"><p>DIDAUDODI </p></li>
         </ul>
     </div>
 </div>

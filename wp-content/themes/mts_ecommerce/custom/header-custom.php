@@ -4,12 +4,119 @@ $parent = get_term(221);
 $categories = get_term_children( 221, 'product_cat' );
 $datas = array(
     221=> array(
-        'B' => array(48,36,54),
-        'D' => array(52,149)
+        'B' => array(48),
+        'Đ' => array(225,226),
+        'D' => array(223,51,149),
+        'G' => array(222),
+        'L' => array(49),
+        'Q' => array(66),
+    ),
+    635=> array(
+        'B' => array(636,637),
+        'L' => array(638),
+        'T' => array(639),
+        'V' => array(640)
+    ),
+    646=> array(
+        'B' => array(647,648),
+        'G' => array(649),
+        'Q' => array(650),
+        'T' => array(651)
+    ),
+    665=> array(
+        'B' => array(666),
+        'L' => array(667),
+        'Q' => array(668),
+    ),
+    674=> array(
+        'G' => array(675,676,677),
+        'Q' => array(679),
+        'T' => array(680),
+    ),
+    596=> array(
+        'B' => array(597,598),
+        'G' => array(599),
+        'H' => array(600),
+        'P' => array(601),
+        'Q' => array(602),
+        'T' => array(603),
+    ),
+    538=> array(
+        'D' => array(539),
+        'G' => array(540),
+        'P' => array(541),
+        'Q' => array(542),
+        'T' => array(543),
+    ),
+    770=> array(
+        'D' => array(771),
+        'G' => array(772),
+        'P' => array(773),
+        'Q' => array(774),
+    ),
+    850=> array(
+        'C' => array(851),
+        'D' => array(852),
+        'G' => array(853),
+        'P' => array(854),
+        'Q' => array(855),
+        'V' => array(856),
     ),
     231=> array(
-        'G' => array(60,53),
-        'Q' => array(66)
+        'G' => array(255),
+        'P' => array(257),
+        'Q' => array(254),
+        'T' => array(256),
+    ),
+    336=> array(
+        'G' => array(337),
+        'P' => array(338),
+        'Q' => array(339),
+        'T' => array(340,122),
+    ),
+    750=> array(
+            'P' => array(751,752),
+        'T' => array(753),
+        'X' => array(754),
+    ),
+    894=> array(
+            'B' => array(895),
+            'G' => array(896),
+        'Q' => array(897),
+        'T' => array(898),
+    ),
+    361=> array(
+            'B' => array(362),
+            'M' => array(363),
+        'P' => array(364),
+        'T' => array(365),
+    ),
+    382=> array(
+            'G' => array(383),
+            'M' => array(384),
+        'P' => array(385),
+        'Q' => array(386),
+    ),
+    295=> array(
+            'G' => array(296),
+            'H' => array(297),
+            'M' => array(298),
+        'P' => array(299),
+        'Q' => array(300),
+    ),
+    875=> array(
+            'D' => array(876),
+            'G' => array(877),
+        'Q' => array(878),
+    ),
+    738=> array(
+            'M' => array(739),
+            'P' => array(740),
+        'S' => array(741),
+    ),
+    720=> array(
+            'D' => array(721),
+            'G' => array(722),
     )
 );
 ?>
@@ -54,7 +161,7 @@ $datas = array(
             <div class="head-menu bg-grey">
                 <div class="head-text"><input type="text" aria-label="Tìm kiếm môn thể thao của bạn"
                                               placeholder="Tìm kiếm môn thể thao của bạn"
-                                              class="app-menu_filter"
+                                              class="app-menu_filter search_sport"
                                               id="search_sport">
                     <div class="app-menu_filter_empty hidden">Xin lỗi. Chúng tôi vẫn chưa có môn thể thao
                         này
@@ -70,10 +177,10 @@ $datas = array(
                         <div class="accordion">
                             <div class="app-menu-content app-menu-content_level3">
                                 <button id="headingOne" class="btn btn-link main_title panel-title collapsed"
-                                        type="button" data-toggle="collapse" data-target="#collapse<?= $firstWord ?>"
-                                        aria-expanded="false" aria-controls="collapse<?= $firstWord ?>"><?= $firstWord ?>
+                                        type="button" data-toggle="collapse" data-target="#collapse<?= $firstWord.$idParent ?>"
+                                        aria-expanded="false" aria-controls="collapse<?= $firstWord.$idParent ?>"><?= $firstWord ?>
                                 </button>
-                                <div id="collapse<?= $firstWord ?>" class="collapse in second_title_box show"
+                                <div id="collapse<?= $firstWord.$idParent ?>" class="collapse in second_title_box show"
                                      aria-labelledby="headingOne" data-parent="#accordion">
                                     <ul>
                                         <?php foreach ($items as $item):?>
@@ -102,7 +209,7 @@ $datas = array(
 </div>
 <script>
     $(document).ready(function(){
-        $("#search_sport").on("keyup", function() {
+        $(".search_sport").on("keyup", function() {
             var value = $(this).val().toLowerCase();
             $(".list_sport li").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
@@ -122,6 +229,16 @@ $datas = array(
         });
         $(".app-menu_close").click(function(event){
             $(".menu--animatable").css('display', 'none');
+        });
+        $(".panel-title").click(function(event){
+            var classup = $(event.target).data('target');
+            if($( classup ).hasClass( "in" ) )
+            {
+                $( classup ).removeClass("show");
+            }
+            else {
+                $( classup ).addClass("show");
+            }
         });
     });
 </script>

@@ -63,25 +63,20 @@
                         </li>
                         <li><a href="#">Quy trình trả hàng</a>
                         </li>
-                        <li><a href="#">Câu hỏi thường gặp</a></li>
                     </ul>
                 </div>
                 <div class="footer-row"><h2>LIÊN HỆ</h2>
                     <ul>
-                        <li><a href="#">Cửa hàng tại Việt
-                                Nam</a></li>
+                        <li><a href="#">Địa chỉ shop</a></li>
                         <li><a href="#">Chăm sóc khách hàng</a>
                         </li>
                     </ul>
                 </div>
-                <div class="footer-row"><h2>VỀ DECATHLON</h2>
+                <div class="footer-row"><h2>VỀ DIDAUDODI</h2>
                     <ul>
                         <li><a href="#">Chúng tôi là ai</a></li>
                         <li><a href="#">Tuyển dụng</a></li>
                         <li><a href="#">Thiết kế sinh thái</a></li>
-                        <li><a href="#">Dịch vụ Click and Collect</a></li>
-                        <li><a href="#">Dịch vụ Tủ nhận hàng tự động</a></li>
-                        <li><a href="#">Thẻ quà tặng</a></li>
                         <li><a href="#">Khuyến mãi</a></li>
                     </ul>
                 </div>
@@ -92,11 +87,10 @@
                         <li><a href="#">Chính sách đổi trả</a>
                         </li>
                         <li><a href="#">Chính sách bảo mật</a></li>
-                        <li><a href="#">Bản tự công bố sản phẩm</a></li>
                     </ul>
                 </div>
                 <div class="footer-row"><h2>PHẢN HỒI <span>VỀ TRẢI NGHIỆM</span></h2>
-                    <div class="b_stars"><img src="/../modules/decashopfooter/views/img/stars.svg">
+                    <div class="b_stars">
                         <p>Hãy xem khách hàng nói gì về chúng tôi</p></div>
                     <div class="b_discover"><a href="#">KHÁM PHÁ NGAY</a></div>
                 </div>

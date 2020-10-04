@@ -277,6 +277,7 @@ header {
     position: relative;
 }
 #site-header {
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
     position: relative;
     float: left;
     width: 100%;
@@ -1776,13 +1777,13 @@ hr {
 .sbutton, #searchsubmit {
     right: 0px;
     top: 0px;
-    width: 10%;
+    width: 15% !important;
     height: 40px;
     cursor: pointer;
     transition: all 0.25s linear;
-    background: #f6f9fa;
+    background: green;
     position: absolute;
-    border: 1px solid #e0e5e7;
+    border: none;
     vertical-align: top;
 }
 #searchform .fa-search {
@@ -1807,7 +1808,8 @@ hr {
     margin: 0 !important;
     width: 90%;
     border: 1px solid #e0e5e7;
-    border-right: none;
+    /*border-right: none;*/
+    border-radius:10px;
     line-height: 18px;
     text-indent: 3px;
 }

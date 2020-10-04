@@ -33,15 +33,15 @@
 <div class="footer-reassurance">
     <div class="containers">
         <div class="row">
-            <div class="col-sm-4 col-xs-4 reassurance-col">
+            <div class="col-sm-3 col-xs-3 reassurance-col">
                 <div class="footer_img_1">
                     <a href="https://www.decathlon.vn/vi/c/78-cam-ket-cua-chung-toi"><img
                                 src="https://www.decathlon.vn/img/product_page/deliveryx.svg" alt="">
-                        <span>Miễn phí vận chuyển cho đơn hàng từ 300k và trong nội thành HCM.</span>
+                        <span>Miễn phí vận chuyển trong nội thành HCM.</span>
                     </a>
                 </div>
             </div>
-            <div class="col-sm-4 col-xs-4 reassurance-col">
+            <div class="col-sm-3 col-xs-3 reassurance-col">
                 <div class="footer_img_1">
                     <a href="https://www.decathlon.vn/vi/c/78-cam-ket-cua-chung-toi"><img
                                 src="https://www.decathlon.vn/img/product_page/easy-return.svg" alt="">
@@ -49,11 +49,19 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-4 col-xs-4 reassurance-col">
+            <div class="col-sm-3 col-xs-3 reassurance-col">
                 <div class="footer_img_1">
                     <a href="https://www.decathlon.vn/vi/c/78-cam-ket-cua-chung-toi"><img
                                 src="https://www.decathlon.vn/img/product_page/deliveryx.svg" alt="">
                         <span>Yên tâm thanh toán.</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-3 reassurance-col">
+                <div class="footer_img_1">
+                    <a href="https://www.decathlon.vn/vi/c/78-cam-ket-cua-chung-toi"><img
+                                src="https://www.decathlon.vn/img/product_page/deliveryx.svg" alt="">
+                        <span>Hàng thể thao chính hãng.</span>
                     </a>
                 </div>
             </div>
