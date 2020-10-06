@@ -115,8 +115,8 @@
     <div class="container">
         <ul class="logos">
             <li class="label-social"><p>Kết nối với <span>chúng tôi</span></p></li>
-            <li><a href="https://www.facebook.com/DecathlonVN/" class="social-fb"> </a></li>
-            <li><a href="https://www.youtube.com/channel/UCKGx2KMsrGggPbPQDNkYUIg/featured" class="social-yt"> </a></li>
+            <li><a href="https://www.facebook.com/%C4%90%E1%BB%93-d%C3%A3-ngo%E1%BA%A1i-ngo%C3%A0i-tr%E1%BB%9Di-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Ch%C3%ADnh-H%C3%A3ng-B%E1%BB%81n-R%E1%BA%BB-%C4%90%E1%BA%B9p-didaudodi-114312363667326/?ref=page_internal" class="social-fb"> </a></li>
+            <li><a href="https://www.youtube.com/channel/UCx8wulR8efCMXeaAKPp6bzA?view_as=subscriber" class="social-yt"> </a></li>
             <li><a href="https://zalo.me/" class="zalo"> </a></li>
         </ul>
         <ul id="hidden-mobile" class="cards_ix">

@@ -3,7 +3,7 @@
         <ul>
             <li class="name_title"><p>THỂ CHẤT KHOẺ MẠNH - TINH THẦN LÀNH MẠNH</p></li>
             <li class="v_r"><p>CHÚNG TÔI LÀ </p></li>
-            <li class="v_r"><p>DIDAUDODI </p></li>
+            <li class="footer_log"><img src="https://didaudodi.com/wp-content/uploads/2020/10/LOGO-white-300-76.png"></li>
         </ul>
     </div>
 </div>
@@ -44,7 +44,7 @@
     }
     .footer-end ul li.footer_log {
         margin: 0 auto;
-        padding: 15px;
+        padding: 5px;
         width: 21%;
         border: 1px solid #DBE5EC;
     }

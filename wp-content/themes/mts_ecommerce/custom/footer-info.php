@@ -91,6 +91,7 @@
                 </div>
                 <div class="footer-row"><h2>PHẢN HỒI <span>VỀ TRẢI NGHIỆM</span></h2>
                     <div class="b_stars">
+                        <img src="https://didaudodi.com/wp-content/uploads/2020/10/stars.png">
                         <p>Hãy xem khách hàng nói gì về chúng tôi</p></div>
                     <div class="b_discover"><a href="#">KHÁM PHÁ NGAY</a></div>
                 </div>

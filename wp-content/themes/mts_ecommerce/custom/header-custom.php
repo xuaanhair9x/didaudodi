@@ -119,13 +119,16 @@ $datas = array(
             'G' => array(722),
     )
 );
+$chaybo = 231;
+$cardio = 770;
+$trekkingandhikking = 221;
 ?>
 <div class="menu-vertical menu--animatable menu--visible" style="display: none">
     <div id="mobile_display"></div>
     <div class="app">
         <div class="app-menu">
             <div class="app-menu_level app-menu_level1">
-                <div class="app-menu-header clearfix menu_logo" id="hidden-mobile"><a href="/"><img src="https://didaudodi.com/wp-content/uploads/2020/08/logo123-0.jpg" title="Decathlon" alt="menu logo"></a></div>
+                <div class="app-menu-header clearfix menu_logo" id="hidden-mobile"><a href="/"><img src="https://didaudodi.com/wp-content/uploads/2020/10/LOGO-white-147-47.png" title="Decathlon" alt="menu logo"></a></div>
                 <div class="app-menu-content app-menu-content_level1">
                     <div class="part-1">
                         <?php foreach ($datas as $key => $value): ?>
@@ -142,20 +145,20 @@ $datas = array(
         </div>
         <div class="app-menu-z">
             <div class="favorites">
-                <div class="col-sm-4 col-xs-4"><a href="https://www.decathlon.vn/vi/3210-chay-bo"
+                <div class="col-sm-4 col-xs-4"><a href="<?= get_category_link(get_term($chaybo)) ?>"
                                                   class="clickable"><img class="img-responsive"
-                                                                         src="https://www.decathlon.vn/img/c/3210-0_thumb.jpg"
-                                                                         alt="Chạy bộ"><span>Chạy bộ</span></a>
+                                                                         src="<?= wp_get_attachment_url(get_woocommerce_term_meta( $chaybo, 'thumbnail_id', true )) ?>"
+                                                                         alt="Chạy bộ"><span><?=get_the_category_by_ID($chaybo)?></span></a>
                 </div>
-                <div class="col-sm-4 col-xs-4"><a href="https://www.decathlon.vn/vi/2624-tap-cardio"
+                <div class="col-sm-4 col-xs-4"><a href="<?= get_category_link(get_term($cardio)) ?>"
                                                   class="clickable"><img class="img-responsive"
-                                                                         src="https://www.decathlon.vn/img/c/2624-0_thumb.jpg"
-                                                                         alt="Tập Cardio"><span>Tập Cardio</span></a>
+                                                                         src="<?= wp_get_attachment_url(get_woocommerce_term_meta( $cardio, 'thumbnail_id', true )) ?>"
+                                                                         alt="Tập Cardio"><span><?=get_the_category_by_ID($cardio)?></span></a>
                 </div>
-                <div class="col-sm-4 col-xs-4"><a href="https://www.decathlon.vn/vi/12828-hiking-trekking"
+                <div class="col-sm-4 col-xs-4"><a href="<?= get_category_link(get_term($trekkingandhikking)) ?>"
                                                   class="clickable"><img class="img-responsive"
-                                                                         src="https://www.decathlon.vn/img/c/12828-0_thumb.jpg"
-                                                                         alt="HIKING &amp; TREKKING"><span>HIKING &amp; TREKKING</span></a>
+                                                                         src="<?= wp_get_attachment_url(get_woocommerce_term_meta( $trekkingandhikking, 'thumbnail_id', true )) ?>"
+                                                                         alt="HIKING &amp; TREKKING"><span><?=get_the_category_by_ID($trekkingandhikking)?></span></a>
                 </div>
             </div>
             <div class="head-menu bg-grey">
