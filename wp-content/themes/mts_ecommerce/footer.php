@@ -7,7 +7,14 @@ $first_footer_num  = empty($mts_options['mts_first_footer_num']) ? 3 : $mts_opti
     <?php if ( is_single() ) mts_related_posts(); ?>
     <?php mts_payment_guarantee(); ?>
 	<footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+        <?php
+        wc_get_template('custom/policy.php');
+        wc_get_template('custom/footer-info.php');
+        wc_get_template('custom/footer-social.php');
+        wc_get_template('custom/footer-end.php');
+        ?>
 		<div class="container">
+            <?php if(false):?>
             <?php if ($mts_options['mts_top_footer']) : ?>
             <div class="footer-icons clearfix">
                 <?php mts_credit_cards(); ?>
@@ -33,6 +40,9 @@ $first_footer_num  = empty($mts_options['mts_first_footer_num']) ? 3 : $mts_opti
             <div class="copyrights">
 				<?php mts_copyrights_credit(); ?>
 			</div> <!--.copyrights-->
+            <?php else:?>
+
+            <?php endif; ?>
 		</div><!--.container-->
 	</footer><!--#site-footer-->
 </div><!--.main-container-->

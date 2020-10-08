@@ -5,7 +5,6 @@ if ( mts_isWooCommerce() ) {
 	$browse_heading = isset( $mts_options['browse_heading'] ) ? $mts_options['browse_heading'] : '';
 
 	$args = apply_filters( 'mts_home_product_cats_args', array() );
-
 	$product_categories = get_terms( 'product_cat', $args );
 	?>
 	<div class="browse-our-categories home-section clearfix">
@@ -25,7 +24,8 @@ if ( mts_isWooCommerce() ) {
 		<?php if ( $product_categories ) { ?>
 			<div class="browse-category-container clearfix loading">
 				<div id="product-categories-slider" class="browse-category-slider">
-				<?php foreach ( $product_categories as $category ) {
+				<?php foreach ( $args as $category ) {
+                    $category = get_term($category);
 					wc_get_template( 'content-product_cat.php', array(
 						'category' => $category
 					) );

@@ -269,7 +269,9 @@ if ( ! function_exists( 'mts_cart' ) ) {
         ?>
         <div class="mts-cart-button-wrap">
             <a href="<?php echo wc_get_cart_url(); ?>" class="mts-cart-button cart-contents">
-                <span class="mts-cart-icon"><i class="fa fa-shopping-cart"></i></span><?php _e( 'Cart', MTS_THEME_TEXTDOMAIN ); ?><span class="count"><?php echo $cart_contents_count; ?></span><i class="fa fa-angle-down"></i>
+                <span class="mts-cart-icon"><i class="fa fa-shopping-cart"></i></span>
+                <span class="count"><?php echo $cart_contents_count; ?>
+<!--                </span><i class="fa fa-angle-down"></i>-->
             </a>
             <div class="mts-cart-content">
             <?php if ( $cart_contents_count != '0' ) { ?>
@@ -712,7 +714,7 @@ if ( ! function_exists( 'mts_payment_guarantee' ) ) {
         if ( !empty( $mts_options['mts_payment_section'] ) && !empty( $mts_options['mts_payment'] ) ) {
         ?>
         <div class="payment-guarantee clearfix">
-            <div class="container">
+            <div class="container payment-content-container">
             <?php
             foreach( $mts_options['mts_payment'] as $payment ) {
                 $title       = $payment['title'];

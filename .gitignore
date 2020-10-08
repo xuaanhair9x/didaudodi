@@ -1,5 +1,7 @@
 wp-config.php
-access
+access.log
 error.log
 wp-content/nfwlog/
 wp-content/nfwlog
+/wp-content/themes/mts_ecommerce/images/
+/wp-content/uploads/

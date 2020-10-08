@@ -3,11 +3,11 @@
 <header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader" class="header-1">
 
 	<div id="header">
-
-		<div class="container">
+        <button class="menu-vertical-icon pull-left" tabindex="1">
+            Tất cả <br><span>Môn thể thao</span> <span class="spinner" title="css loader"></span></button>
+		<div class="container-aa">
 
 			<div class="logo-wrap">
-
 				<?php if ($mts_options['mts_logo'] != '') { ?>
 
 					<?php if( is_front_page() || is_home() || is_404() ) { ?>
@@ -101,7 +101,14 @@
 						</form>
 
 					</div>
-
+                    <div class="contact" style="
+                        float: left;
+                        margin-right: 25px;
+                        padding-top: 5px;
+                        padding-bottom: 7px;
+                        padding-right: 25px;
+                        border-right: 1px solid #d5d8db;">
+                        <a class="face-book" href="#"> FACEBOOK </a></div>
 
 
 					<?php mts_wishlist_link(); ?>
@@ -117,10 +124,9 @@
 			</div><!--.header-right-->
 
 		</div><!--.container-->
-
 	</div><!-- #header-->
-
-	<?php if ( $mts_options['mts_show_primary_nav'] == '1' ) { ?>
+    <?php wc_get_template('custom/header-custom.php'); ?>
+	<?php if ( $mts_options['mts_show_primary_nav'] == '1'  && false) { ?>
 
 		<?php if( $mts_options['mts_sticky_nav'] == '1' ) { ?>
 

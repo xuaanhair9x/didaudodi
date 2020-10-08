@@ -53,9 +53,16 @@ get_header( 'shop' ); ?>
 						do_action( 'woocommerce_archive_description' );
 					?>
 				</header>
-
+                <?php
+                $category = get_queried_object();
+                wc_get_template(
+                    'custom/show-child-category.php',
+                    array(
+                        'current_category_id' => $category->term_id
+                    )
+                );
+                ?>
 				<?php woocommerce_product_loop_start(); ?>
-
 				<?php
 					if ( wc_get_loop_prop( 'total' ) ) {
 						while ( have_posts() ) {

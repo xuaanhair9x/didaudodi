@@ -1084,8 +1084,8 @@ if ( ! function_exists( 'woocommerce_product_loop_start' ) ) {
 
 		wc_get_template( 'loop/loop-start.php' );
 
-		$loop_start = apply_filters( 'woocommerce_product_loop_start', ob_get_clean() );
-
+		//$loop_start = apply_filters( 'woocommerce_product_loop_start', ob_get_clean() );
+        $loop_start = '';
 		if ( $echo ) {
 			echo $loop_start; // WPCS: XSS ok.
 		} else {
@@ -2266,6 +2266,9 @@ if ( ! function_exists( 'woocommerce_products_will_display' ) ) {
 	 * @return bool
 	 */
 	function woocommerce_products_will_display() {
+
+	    // All display product;
+        return true;
 		$display_type = woocommerce_get_loop_display_mode();
 
 		return 0 < wc_get_loop_prop( 'total', 0 ) && 'subcategories' !== $display_type;

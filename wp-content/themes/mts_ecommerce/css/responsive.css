@@ -40,6 +40,9 @@ html { overflow-x: hidden }
         text-align: center;
     }
     /*.slider-widget-container .custom-products-controls { padding-top: 10px }*/
+    #site-header.header-1 {
+        box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+    }
     /*header-2*/
     #site-header.header-2 #primary-navigation {
         width: auto;
