@@ -128,7 +128,7 @@ $trekkingandhikking = 221;
     <div class="app">
         <div class="app-menu">
             <div class="app-menu_level app-menu_level1">
-                <div class="app-menu-header clearfix menu_logo" id="hidden-mobile"><a href="/"><img src="https://didaudodi.com/wp-content/uploads/2020/10/LOGO-white-147-47.png" title="Decathlon" alt="menu logo"></a></div>
+                <div class="app-menu-header clearfix menu_logo" id="hidden-mobile"><a href="/"><img src="https://didaudodi.com/wp-content/uploads/2020/10/LOGO-white-147-47.png" title="Didaudodi" alt="menu logo"></a></div>
                 <div class="app-menu-content app-menu-content_level1">
                     <div class="part-1">
                         <?php foreach ($datas as $key => $value): ?>
@@ -203,7 +203,7 @@ $trekkingandhikking = 221;
         <div class="close_button_vmenu" id="hidden-mobile">
             <button class="app-menu_close">
                 <i class="decashop decashop-close" aria-hidden="true">
-                    <img src="https://www.decathlon.vn/modules/decashopverticalmenu/views/img/close_vmenu.svg" alt="close menu">
+                    X
                 </i>
                 <span>Đóng</span>
             </button>
@@ -269,7 +269,7 @@ $trekkingandhikking = 221;
         height: 77px;
         width: 170px;
         margin-right: 25px;
-        background-image: url('https://www.decathlon.vn/modules/decashopverticalmenu/views/img/menu.svg');
+        background-image: url('https://didaudodi.com/wp-content/uploads/2020/10/menu.svg');
         background-repeat: no-repeat;
         background-position: 15% 50%;
         padding: 0 45px 0 70px;

@@ -36,7 +36,6 @@ $brands_heading = isset( $mts_options['brands_heading'] ) ? $mts_options['brands
                 <a class="btn brand-next"><i class="fa fa-angle-right"></i></a>
             </div>
         </div>
-        <?php if ( !empty( $mts_options['brand_images'] ) ) { ?>
             <div class="brand-container clearfix loading">
                 <div id="brands-slider" class="brand-category">
                     <?php foreach ( $categories as $category ) {
@@ -50,6 +49,5 @@ $brands_heading = isset( $mts_options['brands_heading'] ) ? $mts_options['brands
                      ?>
                 </div>
             </div>
-        <?php } ?>
     </div>
 </div>

@@ -96,7 +96,7 @@
         width: 65px;
         background-size: 65px!important;
         vertical-align: middle;
-        background: url('https://www.decathlon.vn/content/rabbit.png');
+        background: url('https://didaudodi.com/wp-content/uploads/2020/10/rabbit.png');
         background-repeat: no-repeat;
         background-position: 0 0;
         margin-right: 20px;
